@@ -15,7 +15,7 @@ while again == 'Y':
         continue
 
     result = multiplication(n1, n2)
-    print(f'Your result is: {result}\n')
+    print(f'\nYour result is: {result}\n')
 
     again = input('Do you want to continue (Y/N): ').strip().upper()
 
